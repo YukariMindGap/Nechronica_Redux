@@ -1,9 +1,9 @@
 {
        "type": "MOD_INFO",
        "mod_type": "SUPPLEMENTAL",
-       "ident": "Nechronica_M",
-       "name": "Compatible Nechronica",
+       "ident": "Nechronica_Redux",
+       "name": "Nechronica Redux",
        "dependencies": ["dda"],
-       "description": "MODIFIED by Malkues: (Monstergroups fixed and that other thing I did first...). Add items, mutations and enemies appearing in Neclonica of a long-lasting story.",
+       "description": "MODIFIED by Yukari Yakumo: Add items, mutations and enemies appearing in Nechronica: the Long Long Sequel.",
        "path": ""
    }
