@@ -3,14 +3,14 @@
         "type" : "dream",
         "messages" : [
             "In your dream, your body got cut, but you didn't consider it a problem.",
-            "êYou had a dream where something was wriggling inside your body."
+            "You had a dream where something was wriggling inside your body."
             ],
         "category" : "MUTCAT_NECROMANCY",
         "strength" : 1
     },{
         "type" : "dream",
         "messages" : [
-            "In ypur dream, you were reconnecting your dismembered arms.",
+            "In your dream, you were reconnecting your dismembered arms.",
             "A big hole opened in your face as you looked in the mirror ... .... Ah, it was just a dream."
             ],
         "category" : "MUTCAT_NECROMANCY",
