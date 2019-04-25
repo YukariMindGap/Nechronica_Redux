@@ -1,0 +1,24 @@
+[
+  {
+    "id": "nec_undeadgun",
+    "copy-from": "pipe_shotgun",
+    "type": "GUN",
+    "name": "shotgun (undead)",
+    //"name": "double double-barrel shotgun",
+    "description": "We joined two shot guns in series. It's just that, but the destructive power has simply been quadrupled.",
+    //"description": "A home-made shotgun made from two double-barrel shotguns joined together. It has four times the power of a pipe shotgun."
+	"clip_size": 8,
+    "modes": [
+      [ "DEFAULT", "single", 1 ],
+      [ "DOUBLE", "double", 2 ],
+      [ "AUTO", "auto", 4 ]
+    ],
+    "relative": {
+      "weight": 1500,
+      "volume": 7,
+      "price": 25000,
+      "dispersion": 111,
+      "reload": 50
+    }
+  }
+]

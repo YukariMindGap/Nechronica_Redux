@@ -1,0 +1,9 @@
+{
+       "type": "MOD_INFO",
+       "mod_type": "SUPPLEMENTAL",
+       "ident": "Nechronica_M",
+       "name": "Compatible Nechronica",
+       "dependencies": ["dda"],
+       "description": "MODIFIED by Malkues: (Monstergroups fixed and that other thing I did first...). Add items, mutations and enemies appearing in Neclonica of a long-lasting story.",
+       "path": ""
+   }
