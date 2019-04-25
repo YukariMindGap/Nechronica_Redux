@@ -4,6 +4,6 @@
        "ident": "Nechronica_Redux",
        "name": "Nechronica Redux",
        "dependencies": ["dda"],
-       "description": "MODIFIED by Yukari Yakumo: Add items, mutations and enemies appearing in Nechronica: the Long Long Sequel.",
+       "description": "MODIFIED by Yukari Yakumo from Malkues: Add items, mutations and enemies appearing in Nechronica: the Long Long Sequel.",
        "path": ""
    }
