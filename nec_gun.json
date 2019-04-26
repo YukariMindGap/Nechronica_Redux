@@ -5,8 +5,8 @@
 	"id": "nec_undeadgun",
     "copy-from": "pipe_shotgun",
     "type": "GUN",
-    "name": "shotgun (undead)",
-    "description": "We joined two shot guns in series. It's just that, but the destructive power has simply been quadrupled.",
+    "name": "double double-barrel shotgun",
+    "description": "A home-made shotgun made from two double-barrel shotguns joined together. It has four times the power of a pipe shotgun. Legend says that this weapon is inspired by a certain movie about the undead.",
 	"clip_size": 8,
     "modes": [
       [ "DEFAULT", "single", 1 ],
