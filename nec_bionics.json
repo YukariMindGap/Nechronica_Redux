@@ -3,7 +3,7 @@
     "id": "bio_remote_attack_fake",
     "type": "GUN",
     "name": "Remote Attack",
-    "description": "It is a dummy item for CBM (remote attack). A bug occurs when this is visible.",
+    "description": "Dummy item.  If you see this, then something went wrong.",
     "volume": 10,
     "price": 0,
     "material": [
@@ -73,7 +73,7 @@
     "id": "bio_pile_fake",
     "type": "GUN",
     "name": "Pile bunker",
-    "description": "CBM(Pile bunker) for dummy items. A bug occurs when this is visible.",
+    "description": "Dummy item.  If you see this, then something went wrong.",
     "volume": 10,
     "price": 0,
     "material": [
