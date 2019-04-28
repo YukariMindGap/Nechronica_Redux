@@ -3,8 +3,8 @@
         "id" : "iv_mutagen_necromancy",
         "copy-from" : "iv_mutagen_flavor",
         "type" : "COMESTIBLE",
-        "name" : "Serum",
-        "description": "It is a concentrated mutagen. It is blackish, and sticky. Syringes are necessary if you plan to use them...",
+        "name" : "necro serum",
+        "description": "A super-concentrated mutagen that resembles a liquified corpse. You need a syringe to inject it...  if you really want to?",
         "color" : "light_green",
         "flags" : "MUTAGEN_NECROMANCY"
     },

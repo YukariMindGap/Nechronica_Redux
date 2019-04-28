@@ -6,6 +6,6 @@
  "threshold_mut" : "",       "category" : "NECROMANCY",
         "mutagen_message" : "You are starting to not be able to feel your body being cobbled together anymore.",
         "iv_message" : "You wonder where the next place you will be cut will be.",
-        "memorial_message" : "If you reconnect it, you will be quickly restored."
+        "memorial_message" : "Couldn't pull themselves together."
     }
 ]
