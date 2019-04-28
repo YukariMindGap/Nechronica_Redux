@@ -6,7 +6,7 @@
     "copy-from": "pipe_shotgun",
     "type": "GUN",
     "name": "double double-barrel shotgun",
-    "description": "A home-made shotgun made from two double-barrel shotguns joined together. It has four times the power of a pipe shotgun. Legend says that this weapon is inspired by a certain movie about the undead.",
+    "description": "A home-made shotgun made from two double-barrel shotguns joined together. It has four times the power of a pipe shotgun. Legend says that the first person to craft this was inspired by a certain movie about the undead.",
 	"clip_size": 8,
     "modes": [
       [ "DEFAULT", "single", 1 ],

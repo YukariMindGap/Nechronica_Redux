@@ -35,6 +35,7 @@
                 "socks",
                 "dress_shoes",
                 "sewing_kit",
+				"butcher_knife",
                 "nec_alloy_trunk"
             ]
         }
@@ -45,7 +46,11 @@
         "name": "Holic Doll",
         "description": "They say that having an ego is to embrace desire. There is something I want. Is it power? Love? The past? It is not enough yet. not yet.",
         "points": 2,
-        "skills": [
+        "traits": [
+            "TERRIFYING",
+			"THRESH_NECROMANCY"
+        ],
+		"skills": [
             {
                 "level": 2,
                 "name": "unarmed"
@@ -62,10 +67,6 @@
                 "level": 1,
                 "name": "bashing"
             }
-        ],
-        "traits": [
-            "TERRIFYING",
-			"THRESH_NECROMANCY"
         ],
         "items": {
             "both": [
