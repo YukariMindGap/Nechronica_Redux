@@ -3,16 +3,16 @@
         "id" : "iv_mutagen_necromancy",
         "copy-from" : "iv_mutagen_flavor",
         "type" : "COMESTIBLE",
-        "name" : "necro serum",
+        "name" : "necromantic serum",
         "description": "A super-concentrated mutagen that resembles a liquified corpse. You need a syringe to inject it...  if you really want to?",
-        "color" : "light_green",
-        "flags" : "MUTAGEN_NECROMANCY"
+        "color" : "dark_gray",
+        "use_action": { "type": "mutagen_iv", "mutation_category": "NECROMANTIC" }
     },
     {
         "id" : "mutagen_necromancy",
         "copy-from" : "mutagen_flavor",
         "type" : "COMESTIBLE",
         "name" : "Serum",
-        "flags" : [ "MUTAGEN_NECROMANCY" ]
+        "use_action": { "type": "mutagen", "mutation_category": "NECROMANTIC" }
     }   
 ]

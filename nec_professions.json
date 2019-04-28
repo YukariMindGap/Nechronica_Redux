@@ -7,7 +7,7 @@
         "points": 2,
         "traits": [
             "PRETTY",
-			"THRESH_NECROMANCY"
+			"THRESH_NECROMANTIC"
         ],
         "skills": [
             {
@@ -48,7 +48,7 @@
         "points": 2,
         "traits": [
             "TERRIFYING",
-			"THRESH_NECROMANCY"
+			"THRESH_NECROMANTIC"
         ],
 		"skills": [
             {
@@ -108,7 +108,7 @@
         ],
         "traits": [
             "PAINRESIST",
-			"THRESH_NECROMANCY"
+			"THRESH_NECROMANTIC"
         ],
         "items": {
             "both": [
@@ -147,7 +147,7 @@
         ],
         "traits": [
             "GOODCARDIO",
-			"THRESH_NECROMANCY"
+			"THRESH_NECROMANTIC"
         ],
         "items": {
             "both": [
@@ -187,7 +187,7 @@
         ],
         "traits": [
             "EAGLEEYED",
-			"THRESH_NECROMANCY"
+			"THRESH_NECROMANTIC"
         ],
         "items": {
             "both": {
@@ -231,7 +231,7 @@
         ],
         "traits": [
             "STYLISH",
-			"THRESH_NECROMANCY"
+			"THRESH_NECROMANTIC"
         ],
         "items": {
             "both": {

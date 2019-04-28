@@ -1,11 +1,11 @@
 [
     {
         "type" : "mutation_category",
-        "id" : "mutation_necromansy",
+        "id" : "NECROMANTIC",
         "name" : "Undead",
- "threshold_mut" : "",       "category" : "NECROMANCY",
-        "mutagen_message" : "You are starting to not be able to feel your body being cobbled together anymore.",
-        "iv_message" : "You wonder where the next place you will be cut will be.",
+		"threshold_mut" : "THRESH_NECROMANTIC",       
+        "mutagen_message" : "Your heart slows down for a beat.",
+        "iv_message" : "Your feel that all your pain is gone for a moment.",
         "memorial_message" : "Couldn't pull themselves together."
     }
 ]
