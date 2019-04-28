@@ -351,7 +351,7 @@
     ,{
         "type" : "mutation",
         "id" : "NEC_TONGUE",
-        "name" : "Tongue",
+        "name" : "Elongated Tongue",
         "points" : 0,
         "visibility" : 1,
         "ugliness" : 1,
@@ -362,7 +362,7 @@
     ,{
         "type" : "mutation",
         "id" : "NEC_TONGUE2",
-        "name" : "Drooling",
+        "name" : "Prehensile Tongue",
         "points" : 2,
         "visibility" : 4,
         "ugliness" : 4,
