@@ -53,23 +53,15 @@
     "description": "Your arms and legs come off and attack the opponent. Since they return automatically after the attack, you do not have to worry about removing it."
   },
   {
-    "type": "BIONIC_ITEM",
-    "category": "bionics",
     "id": "bio_remote_attack",
-    "symbol": ":",
-    "color": "yellow",
-    "name": "CBM: Remote Attack",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": "Remote Attack CBM",
     "description": "Your arms and legs come off and attack the opponent. Since they return automatically after the attack, you do not have to worry about removing it.",
     "price": 220000,
-    "material": [
-      "steel",
-      "plastic"
-    ],
-    "weight": 2041,
-    "volume": 10,
-    "bashing": 8,
-    "difficulty": 3
-  },  {
+    "difficulty": 4
+  }
+  ,{
     "id": "bio_pile_fake",
     "type": "GUN",
     "name": "Pile bunker",
@@ -109,25 +101,15 @@
     "description": "The metallic stake stored in the forearm shoots with high vibration and super high speed. Although you need to approach to close range, that power is guaranteed. Of course, it also consumes electricity."
   },
   {
-    "type": "BIONIC_ITEM",
-    "category": "bionics",
     "id": "bio_pile",
-    "symbol": ":",
-    "color": "yellow",
-    "name": "CBM: Pile bunker",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": "Pile bunker CBM",
     "description": "The metallic stake stored in the forearm shoots with high vibration and super high speed. Although you need to approach to close range, that power is guaranteed. Of course, it also consumes electricity.",
     "price": 220000,
-    "material": [
-      "steel",
-      "plastic"
-    ],
-    "weight": 2041,
-    "volume": 10,
-    "bashing": 8,
     "difficulty": 4
-  },
-  
-  {
+  }
+  ,{
     "type": "GENERIC",
     "id": "bio_drill_fake",
     "name": "Drill",
@@ -177,21 +159,12 @@
     "description": "Embed the deformation mechanism from the wrist to the drill head. It consumes electric power and starts high-speed rotation. You can excavate both the ground and zombies."
   },
   {
-    "type": "BIONIC_ITEM",
-    "category": "bionics",
     "id": "bio_drill",
-    "symbol": ":",
-    "color": "yellow",
-    "name": "CBM: Drill",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": "Drill CBM",
     "description": "Embed the deformation mechanism from the wrist to the drill head. It consumes electric power and starts high-speed rotation. You can excavate both the ground and zombies.",
     "price": 220000,
-    "material": [
-      "steel",
-      "plastic"
-    ],
-    "weight": 2041,
-    "volume": 10,
-    "bashing": 8,
     "difficulty": 3
   }
   ,{
@@ -213,40 +186,27 @@
     "flags": [ "LIGHT_50", "DURABLE_MELEE", "TRADER_AVOID", "NONCONDUCTIVE","NON_STUCK","NO_UNWIELD" ]
   },
   {
-    "type": "bionic",
     "id": "bio_lightsaber",
+	"type": "bionic",
     "name": "Lightsaber",
+	"description": "Embed the mechanism that generates the light blade in the arm. It becomes a powerful weapon by starting as necessary.",
     "occupied_bodyparts": [
-      [
-        "ARM_R",
-        5
-      ],
-      [
-        "HAND_R",
-        5
-      ]
+      [ "ARM_R", 5 ],
+      [ "HAND_R",5 ]
     ],
     "act_cost": 200,
     "fake_item": "bio_lightsaber_fake",
-    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ],
-    "description": "Embed the mechanism that generates the light blade in the arm. It becomes a powerful weapon by starting as necessary."
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON" ]
   },
   {
-    "type": "BIONIC_ITEM",
-    "category": "bionics",
     "id": "bio_lightsaber",
-    "symbol": ":",
-    "color": "yellow",
-    "name": "CBM: Lightsaber",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": "Lightsaber CBM",
     "description": "Embed the mechanism that generates the light blade in the arm. It becomes a powerful weapon by starting as necessary.",
     "price": 220000,
-    "material": [
-      "steel",
-      "plastic"
-    ],
-    "weight": 2041,
-    "volume": 10,
-    "bashing": 8,
     "difficulty": 4
   }
 ]
+
+
