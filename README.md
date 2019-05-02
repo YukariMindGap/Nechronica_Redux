@@ -20,4 +20,4 @@ HOW can i help:
 You can suggest me anything you want in this mod. Or bug reports.
 
 WHERE do i download it:
-It's right here! Just click the clone button and put it on your mod folder.
+It's right here! Just check out releases. Or, if you're feeling daring, click the clone button and put it on your mod folder.
