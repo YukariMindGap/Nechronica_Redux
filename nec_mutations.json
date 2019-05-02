@@ -30,7 +30,6 @@
         "description" : "For your whole life you've been forbidden from indulging in your peculiar tastes.  Now the world's ended, and you'll be damned if anyone is going to tell you that you can't eat people.",
         "starting_trait" : true,
         "valid" : false,
-        "threshreq" : ["THRESH_NECROMANTIC"],
         "category" : ["NECROMANTIC"],
         "cancels" : ["VEGETARIAN"],
         "flags" : ["CANNIBAL"]
@@ -118,19 +117,6 @@
     }
     ,{
         "type" : "mutation",
-        "id" : "EATHEALTH",
-        "name" : "Hyper-Metabolism",
-        "points" : 15,
-        "description": "You metabolize nutrients so rapidly that you can convert food directly into useful tissue.  Excess nutrition will convert to HP, rather than being wasted.  Activate to skip prompt for overeating.",
-		"prereqs" : ["HUNGER3"],
-		"types": [ "METABOLISM" ],
-        "threshreq" : ["THRESH_CHIMERA","THRESH_NECROMANTIC"],
-        "category" : ["CHIMERA","NECROMANTIC"],
-        "valid" : false,
-        "active" : true
-    }
-    ,{
-        "type" : "mutation",
         "id" : "CLAWS",
         "name" : "Claws",
         "points" : 2,
@@ -172,6 +158,31 @@
         "category" : ["SLIME", "RAT", "MEDICAL", "ELFA","NECROMANTIC"],
         "active" : true
     }
+	,{
+		"type": "mutation",
+		"id": "EATPOISON",
+		"name": "Intestinal Fortitude",
+		"points": 3,
+		"description": "Your guts have developed the ability to handle poisonous food.  Mostly.",
+		"changes_to": [ "EATDEAD" ],
+		"prereqs": [ "NAUSEA", "VOMITOUS", "POISRESIST", "POISONOUS" ],
+		"//": "Yes, you eventually got over the massive digestive upset.  Mutations aren't easy on a system!",
+		"prereqs2": [ "SAPROVORE", "TOLERANCE" ],
+		"threshreq": [ "THRESH_TROGLOBITE", "THRESH_CHIMERA", "THRESH_RAPTOR", "THRESH_RAT", "THRESH_MOUSE" ,"THRESH_NECROMANTIC"],
+		"category": [ "TROGLOBITE", "RAPTOR", "RAT", "CHIMERA", "NECROMANTIC"],
+		"valid": false
+	}
+	,{
+		"type": "mutation",
+		"id": "EATDEAD",
+		"name": "Eater Of The Dead",
+		"points": 4,
+		"description": "Eating rotting, long-dead flesh is good for the struggle, and safe--if still completely unappealing--for you.",
+		"prereqs": [ "EATPOISON" ],
+		"threshreq": [ "THRESH_CHIMERA", "THRESH_RAT", "THRESH_MOUSE" ,"THRESH_NECROMANTIC"],
+		"category": [ "RAT", "CHIMERA", "MOUSE" , "NECROMANTIC"],
+		"valid": false
+	}
     ,{
         "type" : "mutation",
         "id" : "TROGLO2",

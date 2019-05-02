@@ -1,253 +1,158 @@
 [
     {
-        "type": "profession",
-        "ident": "alice",
-        "name": "Alice Doll",
-        "description": "Some dolls can not fight forever. As the days of fighting continue, their hearts remain peaceful. Therefore, the child continues to have some humanity.",
-        "points": 2,
-        "traits": [
-            "PRETTY",
-			"THRESH_NECROMANTIC"
-        ],
-        "skills": [
-            {
-                "level": 1,
-                "name": "cooking"
-            },
-            {
-                "level": 1,
-                "name": "firstaid"
-            },
-            {
-                "level": 3,
-                "name": "speech"
-            },
-            {
-                "level": 1,
-                "name": "tailor"
-            }
-        ],
-        "items": {
-            "both": [
-                "dress_shirt",
-                "skirt",
-                "panties",
-                "socks",
-                "dress_shoes",
-                "sewing_kit",
-				"knife_butcher",
-                "nec_alloy_trunk"
-            ]
-        }
-    }
-    ,{
-        "type": "profession",
-        "ident": "holic",
-        "name": "Holic Doll",
-        "description": "They say that having an ego is to embrace desire. There is something I want. Is it power? Love? The past? It is not enough yet. not yet.",
-        "points": 2,
-        "traits": [
-            "TERRIFYING",
-			"THRESH_NECROMANTIC"
-        ],
+		"type": "profession",
+		"ident": "doll_stacy",
+		"name": "Stacy Doll",
+		"description": "You are one of the dolls, a result of occult reanimation on human corpses. You are the most basic of the dolls, but comes equipped with useful skills and utilities.",
+		"points": 2,
+		"traits": [
+			"TOUGH",
+			"PAINREC1"
+		],
 		"skills": [
-            {
-                "level": 2,
-                "name": "unarmed"
-            },
-            {
-                "level": 2,
-                "name": "melee"
-            },
-            {
-                "level": 1,
-                "name": "dodge"
-            },
-            {
-                "level": 1,
-                "name": "bashing"
-            }
-        ],
-        "items": {
-            "both": [
-                "bandana",
-                "tank_top",
-                "jacket_leather",
-                "gloves_fingerless",
-                "pants",
-                "boy_shorts",
-                "socks",
-                "boots",
-                "knuckle_steel"
-            ]
-        }
-    }
-    ,{
+			{ "level": 2, "name": "fabrication" },
+			{ "level": 1, "name": "tailor" },
+			{ "level": 1, "name": "mechanics" },
+			{ "level": 1, "name": "melee" },
+			{ "level": 1, "name": "bashing" }
+		],
+		"items": {
+			"both": [
+				"socks",
+				"sneakers",
+				"tool_belt",
+				"leather_pouch",
+				"backpack",
+				"wrench"
+			], 
+			"male": [ "jeans", "longshirt", "briefs" ],
+			"female": [ "panties" , "bra" , "dress" ]
+		}
+    },
+	{
+		"type": "profession",
+		"ident": "doll_requiem",
+		"name": "Requiem Doll",
+		"description": "You are a doll, a result of occult reanimation on human corpses. Your previous experience with firearms came handy in your now-undeath.",
+		"points": 2,
+		"traits": [],
+		"skills": [
+			{ "level": 2, "name": "gun" },
+			{ "level": 2, "name": "pistol" },
+			{ "level": 1, "name": "melee" },
+			{ "level": 1, "name": "stabbing" }
+		],
+		"items": {
+			"both": {
+				"items" :[
+					"dress_shirt",
+					"boots",
+					"leather_pouch",
+					"ring"
+				],
+				"entries": [
+					{ "item": "glock_19", "ammo-item": "9mm", "container-item": "holster", "charges": 15 },
+					{ "item": "9mm", "charges": 45},
+					{ "item": "knife_combat", "container-item": "sheath" }
+				]
+			}, 
+			"male": [ "pants", "briefs", "socks" ],
+			"female": [ "skirt", "stockings" , "bra", "panties" ]
+		}
+    },
+	{
+		"type": "profession",
+		"ident": "doll_thanatos",
+		"name": "Thanatos Doll",
+		"description": "You are a doll, a result of occult reanimation on human corpses. A tough combatant able to take on the biggest of threats in close combat.",
+		"points": 2,
+		"traits": [
+			"STR_UP"
+		],
+		"skills": [
+			{ "level": 2, "name": "melee" },
+			{ "level": 1, "name": "bashing" },
+			{ "level": 1, "name": "cutting" },
+			{ "level": 1, "name": "stabbing" }
+		],
+		"items": { 
+			"both": {
+				"entries": [
+					{ "item": "fire_ax", "container-item": "fireman_belt"}
+				]
+			}, 
+			"male": [ "briefs", "longshirt", "jeans" , "socks", "dress_shoes"],
+			"female": [ "panties" , "bra", "nec_panier", "stockings", "dress_shoes", "nec_gothic_dress", "nec_gothic_headdress" ]
+		}
+    },
+	{
+		"type": "profession",
+		"ident": "doll_romanesque",
+		"name": "Romanesque Doll",
+		"description": "You are a doll, a result of occult reanimation on human corpses. Your graceful dancing has no equals.",
+		"points": 2,
+		"CBMs": [ "bio_carbon" ],
+		"skills": [
+			{ "level": 2, "name": "melee" }, 
+			{ "level": 2, "name": "unarmed" }, 
+			{ "level": 2, "name": "dodge" }
+		],
+		"items": {
+			"both": [
+				"dance_shoes",
+				"knit_scarf"
+			],
+			"male": [ "briefs", "tux" , "socks"],
+			"female": [ "bra", "panties", "gown" , "stockings"]
+		}
+    },
+	{
         "type": "profession",
-        "ident": "automaton",
-        "name": "Automaton Doll",
-        "description": "Killing yourself while having a heart is one way to become a gear in the battle. Doll is a doll. The doll is a doll. A dead heart is appropriate for a dead body. Those that do not protect the living, now protect the dead.",
+        "ident": "doll_baroque",
+        "name": "Baroque Doll",
+        "description": "You are a doll, a result of occult reanimation on human corpses. Your genetics shifts uncontrollably, but you can utilize it to your advantage",
         "points": 2,
-        "skills": [
-            {
-                "level": 3,
-                "name": "cutting"
-            },
-            {
-                "level": 1,
-                "name": "melee"
-            },
-            {
-                "level": 1,
-                "name": "stabbing"
-            },
-            {
-                "level": 1,
-                "name": "throw"
-            }
-        ],
         "traits": [
-            "PAINRESIST",
-			"THRESH_NECROMANTIC"
+            "ROBUST",
+			"CHAOTIC"
+        ],
+        "skills": [
+			
         ],
         "items": {
             "both": [
-                "blazer",
-                "boy_shorts",
-                "skirt",
+                "tank_top",
+                "shorts",
                 "socks",
                 "sneakers",
-                "bokken"
-            ]
+				"nec_teddy"
+            ],
+			"male": [ "briefs" ],
+			"female": [ "bra", "panties" ]
         }
-    }
-    ,{
-        "type": "profession",
-        "ident": "junk",
-        "name": "Junker Doll",
-        "description": "The power gained by giving up. But I have not given up yet. There is no body to lose any more. Still there are things that have not yet lost. Also full of flaws we'll continue the wicked play.",
-        "points": 2,
-        "skills": [
-            {
-                "level": 1,
-                "name": "firstaid"
-            },
-            {
-                "level": 3,
-                "name": "survival"
-            },
-            {
-                "level": 1,
-                "name": "traps"
-            },
-            {
-                "level": 1,
-                "name": "fabrication"
-            }
-        ],
-        "traits": [
-            "GOODCARDIO",
-			"THRESH_NECROMANTIC"
-        ],
-        "items": {
-            "both": [
-                "tunic",
-                "knit_scarf",
-                "jacket_light",
-                "panties",
-                "socks",
-                "boots",
-                "crowbar"
-            ]
-        }
-    }
-    ,{
-        "type": "profession",
-        "ident": "court",
-        "name": "Court Doll",
-        "description": "Just swinging weapons is not power. Thinking and knowing also helps. In a devastated world, it has become an incomprehensible force, but... it still can be powerful. There has to be a way.",
-        "points": 2,
-        "skills": [
-            {
-                "level": 1,
-                "name": "mechanics"
-            },
-            {
-                "level": 3,
-                "name": "fabrication"
-            },
-            {
-                "level": 1,
-                "name": "computer"
-            },
-            {
-                "level": 1,
-                "name": "electronics"
-            }
-        ],
-        "traits": [
-            "EAGLEEYED",
-			"THRESH_NECROMANTIC"
-        ],
-        "items": {
-            "both": {
-                "items" :[
-                    "polo_shirt",
-                    "peacoat",
-                    "panties",
-                    "stockings",
-                    "sneakers",
-                    "multitool"
-                ],
-                "entries": [
-                    { "item": "lighter", "charges": 100 }
-                ]
-            }
-        }
-    }
-    ,{
-        "type": "profession",
-        "ident": "sorority",
-        "name": "Sorority Doll",
-        "description": "Shouldering is not a burden. It's strength. There is something that can be carried on even a dead body. As long as there is something to bear on the back, keep on walking. Even if it is only foot.",
-        "points": 2,
-        "skills": [
-            {
-                "level": 1,
-                "name": "speech"
-            },
-            {
-                "level": 3,
-                "name": "mechanics"
-            },
-            {
-                "level": 1,
-                "name": "survival"
-            },
-            {
-                "level": 1,
-                "name": "gun"
-            }
-        ],
-        "traits": [
-            "STYLISH",
-			"THRESH_NECROMANTIC"
-        ],
-        "items": {
-            "both": {
-                "items" :[
-                    "dress",
-                    "panties",
-                    "socks",
-                    "dress_shoes",
-                    "leather_pouch",
-                    "ring"
-                ],
-                "entries": [
-                    { "item": "glock_19", "ammo-item": "9mm", "container-item": "holster", "charges": 15 },
-                    { "item": "9mm", "charges": 35 }
-                ]
-            }
-        }
+    },
+	{
+		"type": "profession",
+		"ident": "doll_gothic",
+		"name": "Gothic Doll",
+		"description": "You are a doll, a result of occult reanimation on human corpses. You were designed to hunt down the other undead and devour them.",
+		"points": 2,
+		"traits": [
+			"EATDEAD",
+			"CANNIBAL",
+			"FLIMSY",
+			"FASTHEALER",
+			"HUNGER3"
+		],
+		"skills": [
+			{ "level": 2, "name": "melee" }, 
+			{ "level": 2, "name": "unarmed" }, 
+			{ "level": 2, "name": "dodge" }
+		],
+		"items": {
+			"both": [
+				"shorts"
+			]
+		}
     }
 ]
