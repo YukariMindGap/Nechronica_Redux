@@ -108,7 +108,7 @@
 		"symbol": "/",
 		"color": "dark_gray",
 		"name": "flying guillotine",
-		"description": "A brutal weapon that is basically a saw-blade attached to a chain. Its weight and long length allows swift decapitation.",
+		"description": "A brutal weapon that is basically a saw-blade attached to a chain. Its sharpness and long length allows swift decapitation.",
 		"price": 75000,
 		"material": ["steel", "plastic"],
 		"weight": 1600,
@@ -176,7 +176,7 @@
 	}, {
 		"type": "GENERIC",
 		"id": "nec_assasin_blade",
-		"name": "assassin's blade",
+		"name": "wrist-mounted hidden blade",
 		"description": "A small sword with a popping mechanism stored inside the glove. It was able to store and deploy instantaneously, and it was heavily used to assassinate key people.",
 		"weight": 300,
 		"to_hit": 2,

@@ -5,7 +5,6 @@
 		"description": "You are a doll, a result of occult reanimation on human corpses. You are the most basic of the dolls, but comes equipped with useful skills and utilities.",
 		"points": 2,
 		"traits": [
-			"TOUGH",
 			"PAINREC1"
 		],
 		"skills": [{
