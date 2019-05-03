@@ -1,20 +1,33 @@
-[
-    {
+[{
 		"type": "profession",
 		"ident": "doll_stacy",
 		"name": "Stacy Doll",
-		"description": "You are one of the dolls, a result of occult reanimation on human corpses. You are the most basic of the dolls, but comes equipped with useful skills and utilities.",
+		"description": "You are a doll, a result of occult reanimation on human corpses. You are the most basic of the dolls, but comes equipped with useful skills and utilities.",
 		"points": 2,
 		"traits": [
 			"TOUGH",
 			"PAINREC1"
 		],
-		"skills": [
-			{ "level": 2, "name": "fabrication" },
-			{ "level": 1, "name": "tailor" },
-			{ "level": 1, "name": "mechanics" },
-			{ "level": 1, "name": "melee" },
-			{ "level": 1, "name": "bashing" }
+		"skills": [{
+				"level": 2,
+				"name": "fabrication"
+			},
+			{
+				"level": 1,
+				"name": "tailor"
+			},
+			{
+				"level": 1,
+				"name": "mechanics"
+			},
+			{
+				"level": 1,
+				"name": "melee"
+			},
+			{
+				"level": 1,
+				"name": "bashing"
+			}
 		],
 		"items": {
 			"both": [
@@ -24,11 +37,11 @@
 				"leather_pouch",
 				"backpack",
 				"wrench"
-			], 
-			"male": [ "jeans", "longshirt", "briefs" ],
-			"female": [ "panties" , "bra" , "dress" ]
+			],
+			"male": ["jeans", "longshirt", "briefs"],
+			"female": ["panties", "bra", "dress"]
 		}
-    },
+	},
 	{
 		"type": "profession",
 		"ident": "doll_requiem",
@@ -36,30 +49,51 @@
 		"description": "You are a doll, a result of occult reanimation on human corpses. Your previous experience with firearms came handy in your now-undeath.",
 		"points": 2,
 		"traits": [],
-		"skills": [
-			{ "level": 2, "name": "gun" },
-			{ "level": 2, "name": "pistol" },
-			{ "level": 1, "name": "melee" },
-			{ "level": 1, "name": "stabbing" }
+		"skills": [{
+				"level": 2,
+				"name": "gun"
+			},
+			{
+				"level": 2,
+				"name": "pistol"
+			},
+			{
+				"level": 1,
+				"name": "melee"
+			},
+			{
+				"level": 1,
+				"name": "stabbing"
+			}
 		],
 		"items": {
 			"both": {
-				"items" :[
+				"items": [
 					"dress_shirt",
 					"boots",
 					"leather_pouch",
 					"ring"
 				],
-				"entries": [
-					{ "item": "glock_19", "ammo-item": "9mm", "container-item": "holster", "charges": 15 },
-					{ "item": "9mm", "charges": 45},
-					{ "item": "knife_combat", "container-item": "sheath" }
+				"entries": [{
+						"item": "glock_19",
+						"ammo-item": "9mm",
+						"container-item": "holster",
+						"charges": 15
+					},
+					{
+						"item": "9mm",
+						"charges": 45
+					},
+					{
+						"item": "knife_combat",
+						"container-item": "sheath"
+					}
 				]
-			}, 
-			"male": [ "pants", "briefs", "socks" ],
-			"female": [ "skirt", "stockings" , "bra", "panties" ]
+			},
+			"male": ["pants", "briefs", "socks"],
+			"female": ["skirt", "stockings", "bra", "panties"]
 		}
-    },
+	},
 	{
 		"type": "profession",
 		"ident": "doll_thanatos",
@@ -69,68 +103,88 @@
 		"traits": [
 			"STR_UP"
 		],
-		"skills": [
-			{ "level": 2, "name": "melee" },
-			{ "level": 1, "name": "bashing" },
-			{ "level": 1, "name": "cutting" },
-			{ "level": 1, "name": "stabbing" }
+		"skills": [{
+				"level": 2,
+				"name": "melee"
+			},
+			{
+				"level": 1,
+				"name": "bashing"
+			},
+			{
+				"level": 1,
+				"name": "cutting"
+			},
+			{
+				"level": 1,
+				"name": "stabbing"
+			}
 		],
-		"items": { 
+		"items": {
 			"both": {
-				"entries": [
-					{ "item": "fire_ax", "container-item": "fireman_belt"}
-				]
-			}, 
-			"male": [ "briefs", "longshirt", "jeans" , "socks", "dress_shoes"],
-			"female": [ "panties" , "bra", "nec_panier", "stockings", "dress_shoes", "nec_gothic_dress", "nec_gothic_headdress" ]
+				"entries": [{
+					"item": "fire_ax",
+					"container-item": "fireman_belt"
+				}]
+			},
+			"male": ["briefs", "longshirt", "jeans", "socks", "dress_shoes"],
+			"female": ["panties", "bra", "nec_panier", "stockings", "dress_shoes", "nec_gothic_dress", "nec_gothic_headdress"]
 		}
-    },
+	},
 	{
 		"type": "profession",
 		"ident": "doll_romanesque",
 		"name": "Romanesque Doll",
 		"description": "You are a doll, a result of occult reanimation on human corpses. Your graceful dancing has no equals.",
 		"points": 2,
-		"CBMs": [ "bio_carbon" ],
-		"skills": [
-			{ "level": 2, "name": "melee" }, 
-			{ "level": 2, "name": "unarmed" }, 
-			{ "level": 2, "name": "dodge" }
+		"CBMs": ["bio_carbon"],
+		"skills": [{
+				"level": 2,
+				"name": "melee"
+			},
+			{
+				"level": 2,
+				"name": "unarmed"
+			},
+			{
+				"level": 2,
+				"name": "dodge"
+			}
 		],
 		"items": {
 			"both": [
 				"dance_shoes",
 				"knit_scarf"
 			],
-			"male": [ "briefs", "tux" , "socks"],
-			"female": [ "bra", "panties", "gown" , "stockings"]
+			"male": ["briefs", "tux", "socks"],
+			"female": ["bra", "panties", "gown", "stockings"]
 		}
-    },
+	},
 	{
-        "type": "profession",
-        "ident": "doll_baroque",
-        "name": "Baroque Doll",
-        "description": "You are a doll, a result of occult reanimation on human corpses. Your genetics shifts uncontrollably, but you can utilize it to your advantage",
-        "points": 2,
-        "traits": [
-            "ROBUST",
+		"type": "profession",
+		"ident": "doll_baroque",
+		"name": "Baroque Doll",
+		"description": "You are a doll, a result of occult reanimation on human corpses. Your genetics shifts uncontrollably, but you can utilize it to your advantage",
+		"points": 2,
+		"traits": [
+			"ROBUST",
 			"CHAOTIC"
-        ],
-        "skills": [
-			
-        ],
-        "items": {
-            "both": [
-                "tank_top",
-                "shorts",
-                "socks",
-                "sneakers",
+		],
+		"skills": [
+
+		],
+		"items": {
+			"both": [
+				"tank_top",
+				"shorts",
+				"socks",
+				"sneakers",
 				"nec_teddy"
-            ],
-			"male": [ "briefs" ],
-			"female": [ "bra", "panties" ]
-        }
-    },
+			],
+			"male": ["briefs"],
+			"female": ["bra", "panties"]
+		}
+	},
 	{
 		"type": "profession",
 		"ident": "doll_gothic",
@@ -144,15 +198,24 @@
 			"FASTHEALER",
 			"HUNGER3"
 		],
-		"skills": [
-			{ "level": 2, "name": "melee" }, 
-			{ "level": 2, "name": "unarmed" }, 
-			{ "level": 2, "name": "dodge" }
+		"skills": [{
+				"level": 2,
+				"name": "melee"
+			},
+			{
+				"level": 2,
+				"name": "unarmed"
+			},
+			{
+				"level": 2,
+				"name": "dodge"
+			}
 		],
 		"items": {
 			"both": [
-				"shorts"
+				"shorts",
+				"nec_ribbon"
 			]
 		}
-    }
+	}
 ]
