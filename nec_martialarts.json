@@ -54,6 +54,7 @@
 	"id": "style_niten",
 	"name": "Niten Ichi-Ryu",
 	"description": "Niten Ichi-Ryu is an ancient school of combat, transmitting a style of classical Japanese swordsmanship conceived by the warrior Miyamoto Musashi.",
+	"initiate": [ "You clear your mind as you prepare yourself for combat.", "%s relaxes and prepares for combat." ],
 	"arm_block": 99,
 	"leg_block": 99,
 	"static_buffs": [{
