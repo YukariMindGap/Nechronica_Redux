@@ -4,8 +4,8 @@
 	"default": "mon_null",
 	"monsters": [{
 			"monster": "mon_nec_ZQ_chang",
-			"freq": 5,
-			"cost_multiplier": 30
+			"freq": 2,
+			"cost_multiplier": 40
 		},
 		{
 			"monster": "mon_nec_banshee",
@@ -15,7 +15,7 @@
 		{
 			"monster": "mon_nec_ZQ_sama",
 			"freq": 1,
-			"cost_multiplier": 30
+			"cost_multiplier": 40
 		},
 		{
 			"monster": "mon_nec_nemesis",
@@ -35,13 +35,13 @@
 	"default": "mon_zombie",
 	"monsters": [{
 			"monster": "mon_nec_ZQ_chang",
-			"freq": 5,
-			"cost_multiplier": 30
+			"freq": 2,
+			"cost_multiplier": 40
 		},
 		{
 			"monster": "mon_nec_ZQ_sama",
-			"freq": 2,
-			"cost_multiplier": 30
+			"freq": 1,
+			"cost_multiplier": 40
 		},
 		{
 			"monster": "mon_nec_hiruko",
