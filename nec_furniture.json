@@ -4,9 +4,11 @@
     "type": "furniture",
     "id": "f_coffin_c",
     "name": "coffin",
+	"description": "Holds the bodies of the countless killed in the Cataclysm.",
     "symbol": "0",
     "bgcolor": "brown",
     "move_cost_mod": -1,
+    "coverage": 40,
     "required_str": 14,
     "flags": [
       "TRANSPARENT",
@@ -17,10 +19,11 @@
       "PLACE_ITEM",
       "ORGANIC",
       "MOUNTABLE",
-      "SHORT"
+      "SHORT",
+      "FLAT_SURF"
     ],
     "deconstruct": { "items": [ { "item": "nec_coffin", "count": 1 } ] },
-    "max_volume": 4000,
+    "max_volume": 3500,
     "bash": {
       "str_min": 12,
       "str_max": 40,
@@ -38,13 +41,15 @@
     "type": "furniture",
     "id": "f_coffin_o",
     "name": "open coffin",
+    "description": "You can only hope you'll look good enough for one of these, when the time comes.",
     "symbol": "O",
     "bgcolor": "brown",
     "move_cost_mod": -1,
+    "coverage": 35,
     "required_str": 12,
     "flags": [ "TRANSPARENT", "CONTAINER", "FLAMMABLE", "PLACE_ITEM", "ORGANIC", "MOUNTABLE", "SHORT" ],
     "deconstruct": { "items": [ { "item": "nec_coffin", "count": 1 } ] },
-    "max_volume": 4000,
+    "max_volume": 3500,
     "bash": {
       "str_min": 12,
       "str_max": 40,
