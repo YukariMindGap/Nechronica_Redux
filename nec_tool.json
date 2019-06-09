@@ -22,7 +22,7 @@
     "type": "TOOL",
     "category": "weapons",
     "id": "nec_fiber",
-    "name": "Monomolecular fiber",
+    "name": "monomolecular fiber",
     "description": "A thin, surprisingly sharp wire. It is used as a very sharp garrote capable of dismembering enemies precisely.",
     "weight": 750,
     "volume": 3,
