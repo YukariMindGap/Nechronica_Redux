@@ -215,7 +215,7 @@
   {
     "id": "mon_nec_hiruko",
     "type": "MONSTER",
-    "name": "Chimera",
+    "name": "Hiruko",
     "description": "It looks like a human being, but the limbs are cut, and instead there is a monster with things like hooks attached. Seems to have high regenerative power, but as there is no eyes it has no vision",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
