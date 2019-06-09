@@ -1,5 +1,5 @@
-# Necronica_Redux
-Nechonica fork.
+# Nechronica_Redux
+Nechr.onica fork.
 Forked from Malkeus's Compatible Nechronica.
 
 WHY are you doing this:
