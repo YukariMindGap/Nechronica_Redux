@@ -155,7 +155,7 @@
     "color": "red",
     "ammo": "gasoline",
     "max_charges": 750,
-    "turns_per_charge": 2,
+    "turns_per_charge": 12,
     "revert_to": "nec_combat_lawnmower_off",
     "use_action": { "type": "transform", "msg": "The screw slowly stops rotating.", "target": "nec_combat_lawnmower_off" },
     "flags": [ "MESSY", "TRADER_AVOID", "NONCONDUCTIVE" ]
