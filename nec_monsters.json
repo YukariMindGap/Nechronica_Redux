@@ -2,14 +2,14 @@
   {
     "id": "mon_nec_ZQ_sama",
     "type": "MONSTER",
-    "name": "Zombie Queen",
+    "name": "zombie queen",
     "description": "It looks like a beautiful girl, but is actually the queen of the undead who leads countless undead.",
     "species": "ZOMBIE",
     "default_faction": "zombie",
     "symbol": "Q",
     "color": "dark_gray",
     "size": "MEDIUM",
-    "diff": 40,
+    "diff": 20,
     "hp": 300,
     "speed": 90,
     "material": [ "flesh" ],
@@ -51,14 +51,13 @@
   {
     "id": "mon_nec_ZQ_chang",
     "type": "MONSTER",
-    "name": "Zombie Queen-chan",
+    "name": "little zombie queen",
     "description": "It looks like a beautiful girl, but is really...?",
     "species": "ZOMBIE",
     "default_faction": "zombie",
     "symbol": "Q",
     "color": "dkgray",
     "size": "MEDIUM",
-    "diff": 15,
     "hp": 200,
     "speed": 90,
     "material": [ "flesh" ],
@@ -98,11 +97,10 @@
   {
     "id": "mon_nec_banshee",
     "type": "MONSTER",
-    "name": "Banshee",
+    "name": "banshee",
     "description": "Originally it looked like a girl, but now her ego collapsed she's gone mad.",
     "species": [ "ZOMBIE" ],
     "default_faction": "zombie",
-    "diff": 3,
     "size": "SMALL",
     "hp": 60,
     "speed": 80,
@@ -121,16 +119,15 @@
     "death_drops": { "groups": [ [ "default_zombie_clothes", 100 ], [ "child_items", 65 ] ] },
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_scorched",
-    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "GUILT", "NO_BREATHE", "REVIVES", "BONES" ]
+    "flags": [ "SEES", "HEARS", "SMELLS", "STUMBLES", "WARM", "BASHES", "POISON", "GUILT", "NO_BREATHE", "REVIVES", "BONES", "FILTHY" ]
   },
   {
     "id": "mon_nec_nemesis",
     "type": "MONSTER",
-    "name": "Nemesis",
+    "name": "nemesis",
     "description": "Has the appearance of a girl, but it is swinging a knife with obvious superhuman speed and strength. There is no doubt that it is reinforced with blaspheming techniques.",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
-    "diff": 15,
     "size": "MEDIUM",
     "hp": 200,
     "speed": 125,
@@ -165,17 +162,17 @@
       "NO_BREATHE",
       "REVIVES",
       "BONES",
-      "PUSH_MON"
+      "PUSH_MON",
+	  "FILTHY"
     ]
   },
   {
     "id": "mon_nec_valkyrie",
     "type": "MONSTER",
-    "name": "Valkyrie",
+    "name": "valkyrie",
     "description": "It was mostly horrible machine remodeling that kept the prototype of the human body intact. It has no legs and is floating with something like a floater.",
-    "default_faction": "zombie",
+    "default_faction": "science",
     "species": [ "ZOMBIE" ],
-    "diff": 10,
     "size": "MEDIUM",
     "hp": 200,
     "speed": 105,
@@ -216,11 +213,10 @@
   {
     "id": "mon_nec_hiruko",
     "type": "MONSTER",
-    "name": "Hiruko",
+    "name": "chimera",
     "description": "It looks like a human being, but the limbs are cut, and instead there is a monster with things like hooks attached. Seems to have high regenerative power, but as there is no eyes it has no vision",
     "default_faction": "zombie",
     "species": [ "ZOMBIE" ],
-    "diff": 5,
     "size": "MEDIUM",
     "hp": 200,
     "speed": 75,
@@ -240,6 +236,6 @@
     "death_drops": "default_zombie_death_drops",
     "death_function": [ "NORMAL" ],
     "burn_into": "mon_zombie_fiend",
-    "flags": [ "HEARS", "SMELLS", "BASHES", "REGENERATES_10", "FLIES", "POISON", "NO_BREATHE", "BONES", "PUSH_MON" ]
+    "flags": [ "HEARS", "SMELLS", "BASHES", "REGENERATES_1", "FLIES", "POISON", "NO_BREATHE", "BONES", "PUSH_MON", "FILTHY" ]
   }
 ]
