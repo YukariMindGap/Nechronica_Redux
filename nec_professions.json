@@ -51,16 +51,16 @@
     "name": "Thanatos Doll",
     "description": "You are a doll, a result of occult reanimation on human corpses. A tough combatant able to take on the biggest of threats in close combat.",
     "points": 2,
-    "traits": [ "STR_UP" ],
+    "traits": [ "TOUGH" ],
     "skills": [
       { "level": 2, "name": "melee" },
       { "level": 1, "name": "bashing" },
-      { "level": 1, "name": "cutting" },
+      { "level": 2, "name": "cutting" },
       { "level": 1, "name": "stabbing" }
     ],
     "items": {
       "both": { "entries": [ { "item": "fire_ax", "container-item": "fireman_belt" } ] },
-      "male": [ "briefs", "longshirt", "jeans", "socks", "dress_shoes" ],
+      "male": [ "boxer_shorts", "longshirt", "jeans", "socks", "dress_shoes" ],
       "female": [ "panties", "bra", "nec_panier", "stockings", "dress_shoes", "nec_gothic_dress", "nec_gothic_headdress" ]
     }
   },
@@ -85,7 +85,6 @@
     "description": "You are a doll, a result of occult reanimation on human corpses. Your genetics shifts uncontrollably, but you can utilize it to your advantage",
     "points": 2,
     "traits": [ "ROBUST", "CHAOTIC" ],
-    "skills": [  ],
     "items": {
       "both": [ "tank_top", "shorts", "socks", "sneakers", "nec_teddy" ],
       "male": [ "briefs" ],
