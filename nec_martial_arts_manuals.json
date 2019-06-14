@@ -4,6 +4,7 @@
     "copy-from": "book_martial",
     "type": "GENERIC",
     "name": "Kung Fu for Dummies",
-    "description": "A complete guide to Kung Fu."
+    "description": "A complete guide to Kung Fu.",
+    "looks_like": "manual_aikido"
   }
 ]

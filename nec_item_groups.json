@@ -147,7 +147,17 @@
   {
     "type": "item_group",
     "id": "mut_lab",
-    "items": [ [ "iv_mutagen_necromancy", 2 ] ]
+    "items": [ [ "iv_mutagen_necromancy", 2 ], [ "NEC_recipe_necromancy", 3 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "hospital_lab",
+    "items": [ [ "NEC_recipe_necromancy", 3 ] ]
+  },
+  {
+    "type": "item_group",
+    "id": "goo",
+    "items": [ [ "NEC_recipe_necromancy", 3 ] ]
   },
   {
     "type": "item_group",

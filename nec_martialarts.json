@@ -46,74 +46,8 @@
   },
   {
     "type": "martial_art",
+    "copy-from": "style_niten",
     "id": "style_niten",
-    "name": "Niten Ichi-Ryu",
-    "description": "Niten Ichi-Ryu is an ancient school of combat, transmitting a style of classical Japanese swordsmanship conceived by the warrior Miyamoto Musashi.",
-    "initiate": [ "You clear your mind as you prepare yourself for combat.", "%s relaxes and prepares for combat." ],
-    "arm_block": 99,
-    "leg_block": 99,
-    "static_buffs": [
-      {
-        "id": "niten_stationary_buff",
-        "name": "Niten Ichi-Ryu",
-        "description": "Perception increases dodging and damage.",
-        "min_melee": 2,
-        "flat_bonuses": [ [ "damage", "cut", "per", 0.5 ], [ "damage", "bash", "per", 0.5 ], [ "dodge", "per", 0.5 ] ]
-      }
-    ],
-    "onmove_buffs": [
-      {
-        "id": "niten_move_buff",
-        "name": "Blocking",
-        "description": "You forgo dodging on the move, but gain more blocks.",
-        "min_melee": 2,
-        "max_stacks": 1,
-        "buff_duration": 2,
-        "flat_bonuses": [ [ "dodge", -10.0 ] ],
-        "bonus_dodges": -1,
-        "bonus_blocks": 2
-      }
-    ],
-    "onhit_buffs": [
-      {
-        "id": "niten_hit_buff",
-        "name": "Blocking",
-        "description": "You forgo dodging on the offensive, but gain more blocks.",
-        "min_melee": 2,
-        "max_stacks": 1,
-        "buff_duration": 2,
-        "flat_bonuses": [ [ "dodge", -10.0 ] ],
-        "bonus_dodges": -1,
-        "bonus_blocks": 2
-      }
-    ],
-    "ondodge_buffs": [
-      {
-        "id": "niten_set-up",
-        "name": "In-One Timing Set-Up",
-        "description": "You found a gap in the enemy's defense!",
-        "min_melee": 4,
-        "buff_duration": 2,
-        "max_stacks": 1
-      }
-    ],
-    "techniques": [ "niten_water_cut", "niten_red_leaf", "niten_stone_cut", "niten_timing_attack", "niten_feint" ],
-    "weapons": [
-      "katana",
-      "katana_inferior",
-      "katana_fake",
-      "firekatana_off",
-      "firekatana_on",
-      "bokken",
-      "bokken_inferior",
-      "bokken_fake",
-      "wakizashi",
-      "wakizashi_inferior",
-      "wakizashi_fake",
-      "nodachi",
-      "nodachi_inferior",
-      "nodachi_fake",
-      "nec_fine_katana"
-    ]
+    "extend": { "weapons": [ "nec_fine_katana" ] }
   }
 ]

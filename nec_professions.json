@@ -107,17 +107,12 @@
     "name": "Erudite Doll",
     "description": "You are a doll, a result of occult reanimation on human corpses. You have the skills to utilize explosives and a proper discipline on its usage.",
     "points": 2,
-    "skills": [
-      { "level": 2, "name": "launcher" }
-    ],
+    "skills": [ { "level": 2, "name": "launcher" } ],
     "items": {
       "both": {
-	    "items": [ "socks", "sneakers", "jacket_windbreaker", "tshirt", "backpack" ],
-		"entries": [
-          { "item": "40mm_frag", "charges": 4 },
-		  { "item": "launcher_simple", "ammo-item": "40mm_frag", "charges": 1}
-	    ]
-	  },
+        "items": [ "socks", "sneakers", "jacket_windbreaker", "tshirt", "backpack" ],
+        "entries": [ { "item": "40mm_frag", "charges": 4 }, { "item": "launcher_simple", "ammo-item": "40mm_frag", "charges": 1 } ]
+      },
       "male": [ "boxer_shorts" ],
       "female": [ "panties", "bra" ]
     }
