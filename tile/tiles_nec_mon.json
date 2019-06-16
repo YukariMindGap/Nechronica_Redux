@@ -12,12 +12,12 @@
       "file": "tile/Nechronica.png",
       "tiles": 
       [
-        { "id": "mon_nec_ZQ_sama",   "fg": 0, "rotates": false },
-        { "id": "mon_nec_ZQ_chang",  "fg": 1, "rotates": false },
-        { "id": "mon_nec_nemesis",   "fg": 2, "rotates": false },
-        { "id": "mon_nec_banshee",   "fg": 3, "rotates": false },
-        { "id": "mon_nec_hiruko",    "fg": 4, "rotates": false },
-        { "id": "mon_nec_valkyrie",    "fg": 5, "rotates": false },
+        { "id": "mon_nec_ZQ_sama",   "fg": 0},
+        { "id": "mon_nec_ZQ_chang",  "fg": 1},
+        { "id": "mon_nec_nemesis",   "fg": 2},
+        { "id": "mon_nec_banshee",   "fg": 3},
+        { "id": "mon_nec_hiruko",    "fg": 4},
+        { "id": "mon_nec_valkyrie",    "fg": 5},
 
         { "id": "nec_ball_chain",    "fg": 6, "rotates": false },
         { "id": "nec_jogiri",        "fg": 7, "rotates": false },
