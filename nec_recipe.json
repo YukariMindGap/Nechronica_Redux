@@ -5,7 +5,7 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "fabrication",
-    "difficulty": 3,
+    "difficulty": 5,
     "skills_required": [ "survival", 2 ],
     "time": "5 m",
     "reversible": true,
