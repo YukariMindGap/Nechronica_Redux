@@ -10,13 +10,13 @@ There's also combat lawnmowers, the bionic that allows you to rocket punch enemi
 You can also be a male Doll, since CDDA has no concept of profession restrinction.
 
 What's in this mod:
-4 new bionics.
-1 new mutation category with dreams and mutagens/serums, along with 12 new mutations
-1 new martial arts
-6 new monsters
-6 new jobs from the classes of nechronica (not position), along with 1 fanmade class
-8 new clothes, including gothic lolita stuff
-8 new weapons
+4 new bionics,
+1 new mutation category with dreams and mutagens/serums, along with 12 new mutations,
+1 new martial arts,
+6 new monsters,
+6 new jobs from the classes of nechronica (not position), along with 1 fanmade class,
+8 new clothes, including gothic lolita stuff, and
+8 new weapons.
 
 Why are you doing this:
 Okay, so there's the original Nechronica mod, a japanese mod about the tabletop game about zombie girls or something. 
