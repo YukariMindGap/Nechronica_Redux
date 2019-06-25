@@ -18,12 +18,12 @@ What's in this mod:
 8 new clothes, including gothic lolita stuff
 8 new weapons
 
-why are you doing this:
+Why are you doing this:
 Okay, so there's the original Nechronica mod, a japanese mod about the tabletop game about zombie girls or something. 
 Unfortunately, it was made in LUA. Since the removal of LUA in CDDA modding, this mod is no longer supported... Or is it??
 Malkeus came to the rescue! He removed all those pesky LUAs and converted it into JSONs. Unfortunately, he didn't quite finish the job, and he stopped updating six months ago...
 Do you think this mod's going to be forgotten? Nahhh... I, Yukari, shall fix all the mod's problems and enhance it furthermore! 
 This is actually my first project of mine. I started modding CDDA to fix this one mod. I might make a mod about more improvised weapons, but it comes later.
 
-how can i help:
+How can i help:
 You can suggest me anything you want in this mod. Or bug reports.
