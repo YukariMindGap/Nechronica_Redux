@@ -34,7 +34,7 @@
     ],
     "items": {
       "both": {
-        "items": [ "dress_shirt", "boots", "leather_pouch", "ring" ],
+        "items": [ "dress_shirt", "boots", "leather_pouch", "gold_ring" ],
         "entries": [
           { "item": "glock_19", "ammo-item": "9mm", "container-item": "holster", "charges": 15 },
           { "item": "9mm", "charges": 45 },
