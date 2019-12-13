@@ -321,7 +321,7 @@
     "tools": [ [ [ "surface_heat", 25, "LIST" ] ] ],
     "components": [
       [ [ "mutagen", 1 ] ],
-      [ [ "human_flesh", 2 ], [ "human_cooked", 2 ], [ "human_smoked", 2 ], [ "dry_hflesh", 2 ] ],
+      [ [ "human_flesh", 4 ], [ "mutant_human_flesh", 2 ] ],
       [ [ "ammonia", 1 ], [ "lye_powder", 100 ] ]
     ]
   },
