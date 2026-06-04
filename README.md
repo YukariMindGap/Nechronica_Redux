@@ -1,3 +1,7 @@
+### THIS MOD HAS BEEN SUPERCEEDED WITH THE NEW VERSION
+### NECHRONICA: BRIGHT SEQUEL
+### GO TO THIS REPO INSTEAD: https://github.com/YukariMindGap/Nechronica_Bright_Sequel
+
 # Nechronica_Redux
 Nechronica fork.
 Forked from Malkeus's Compatible Nechronica.
